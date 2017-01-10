@@ -1,36 +1,38 @@
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust:100%;
-  -ms-text-size-adjust:100%;
-  -webtext-text-size-adjust:100%;
-  font-family:Georgia;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webtext-text-size-adjust: 100%;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
-.earth{
+.earth {
   background: #495562;
   position: relative;
 }
 
-.img-flex{
+.img-flex {
   width: 100%;
   display: block;
 }
-.btn-ghost{
-color: #fff;
+
+.btn-ghost {
+  color: #fff;
 }
 
-btn{
-  border: #fff;
-}
-@media only screen and (min-width: 60em){
-.text{position: absolute;
-  bottom: 0;
-}
-.botton{position: absolute;
-}
+@media only screen and (min-width: 60em) {
+
+  .text {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .botton {
+    position: absolute;
+  }
 }
