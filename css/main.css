@@ -13,23 +13,16 @@ html {
 
 .earth{
   background: #495562;
+  position: relative;
 }
-
 
 img{
   width: 100%;
   display: block;
-  position: relative;
 }
 
-.name {position: absolute;
-
+@media only screen and (min-width: 60em){
+.text{position: absolute;
+  bottom: 0;
 }
-
-.content {position: absolute;
-
-}
-
-@media only screen and (min-width: 25em){
-
 }
