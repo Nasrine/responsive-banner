@@ -6,8 +6,8 @@ html {
   box-sizing: border-box;
   -moz-text-size-adjust:100%;
   -ms-text-size-adjust:100%;
-  -webtext-text-size-adjust:100%
-  font-family:'Georgia';
+  -webtext-text-size-adjust:100%;
+  font-family:Georgia;
   color: #fff;
 }
 
@@ -16,13 +16,21 @@ html {
   position: relative;
 }
 
-img{
+.img-flex{
   width: 100%;
   display: block;
 }
+.btn-ghost{
+color: #fff;
+}
 
+btn{
+  border: #fff;
+}
 @media only screen and (min-width: 60em){
 .text{position: absolute;
   bottom: 0;
+}
+.botton{position: absolute;
 }
 }
