@@ -1,0 +1,35 @@
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  -webtext-text-size-adjust:100%
+  font-family:'Georgia';
+  color: #fff;
+}
+
+.earth{
+  background: #495562;
+}
+
+
+img{
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.name {position: absolute;
+
+}
+
+.content {position: absolute;
+
+}
+
+@media only screen and (min-width: 25em){
+
+}
