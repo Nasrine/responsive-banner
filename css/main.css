@@ -11,7 +11,7 @@ html {
   color: #fff;
 }
 
-.earth {
+.grid {
   background: #495562;
   position: relative;
 }
@@ -27,12 +27,12 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-  .text {
+  .grid {
     position: absolute;
     bottom: 0;
   }
 
-  .botton {
-    position: absolute;
+  .a {
+    display: inline-block;
   }
 }
