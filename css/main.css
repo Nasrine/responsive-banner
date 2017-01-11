@@ -25,14 +25,24 @@ html {
   color: #fff;
 }
 
+.unit {
+  max-height: 500px;
+}
+
+.wrapper{
+  max-width: 500px;
+    margin: 0 auto;
+
+}
+
 @media only screen and (min-width: 60em) {
 
-  .grid {
+  .unit {
     position: absolute;
     bottom: 0;
   }
 
-  .a {
-    display: inline-block;
+  .btn-ghost {
+
   }
 }
