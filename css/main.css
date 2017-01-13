@@ -33,13 +33,11 @@ a {
   display: inline-block;
 }
 
-
-
 @media only screen and (min-width: 60em) {
 
-  .content{
+  .content {
     background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
-    width:100%;
+    width: 100%;
     position: absolute;
     bottom: 0;
   }
@@ -48,11 +46,12 @@ a {
     display: inline-block;
   }
 
-  .banner{
+  .banner {
     max-height: 500px;
     overflow: hidden;
   }
-  .btn{
+
+  .btn {
     border-color: #97a49b;
   }
 }
